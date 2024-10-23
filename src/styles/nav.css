@@ -1,0 +1,38 @@
+body {
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 4em;
+  cursor: pointer;
+}
+nav .logo {
+  color: deepskyblue;
+  font-size: 30px;
+  font-weight: 600;
+}
+nav .items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav .items select {
+  border-radius: 5px;
+  padding: 5px;
+}
+nav .items .add-task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: deepskyblue;
+  padding: 7px 15px;
+  border-radius: 5px;
+  color: white;
+  gap: 5px;
+}
+nav .items .add-task button {
+  background: none;
+  border: none;
+  color: white;
+}

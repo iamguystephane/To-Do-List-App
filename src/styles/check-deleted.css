@@ -1,0 +1,31 @@
+.check-deleted {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7));
+}
+.check-deleted .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 8px;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+}
+.check-deleted h3 {
+    color: black;
+    text-align: center;
+}
+.options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
